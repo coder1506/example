@@ -1,0 +1,44 @@
+.inline{
+  display: inline;
+}
+.table-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 50px;
+  background: black;
+}
+.table-title{
+  margin-left: 30px;
+  font-size: 20px;
+}
+.del-btn{
+  margin-right: 10px;
+}
+.add-btn{
+  margin-right: 20px;
+}
+.table-container{
+  width: 100%;
+}
+.table-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.ml-8{
+  margin-left: 8px;
+}
+.footer-right .nb{
+  width: 20px;
+  height: 20px;
+  display: inline-block !important;
+  text-align: center;
+}
+.footer-right div:hover{
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
