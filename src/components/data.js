@@ -1,39 +1,23 @@
-const employees = [
+// dữ liệu fix cứng dạng json
+const prisons = [
     {
       id: 1,
-      name: "Thomas Hardy",
-      email: "thomashardy@mail.com",
-      address: "89 Chiaroscuro Rd, Portland, USA",
-      phone: "(171) 555-2222"
+      code: 1,
+      name: "Phòng giam A",
+      quantity: 10,
     },
     {
       id: 2,
-      name: "Dominique Perrier",
-      email: "dominiquep@mail.com",
-      address: "Obere Str. 57, Berlin, Germany",
-      phone: "(313) 555-5735"
+      code: 2,
+      name: "Phòng giam B",
+      quantity: 20,
     },
     {
       id: 3,
-      name: "Maria Anders",
-      email: "mariaanders@mail.com",
-      address: "25, rue Lauriston, Paris, France",
-      phone: "(503) 555-9931"
+      code: 3,
+      name: "Phòng giam C",
+      quantity: 30,
     },
-    {
-      id: 4,
-      name: "Fran Wilson",
-      email: "franwilson@mail.com",
-      address: "C/ Araquil, 67, Madrid, Spain",
-      phone: "(204) 619-5731"
-    },
-    {
-      id: 5,
-      name: "Martin Blank",
-      email: "msartinblank@mail.com",
-      address: "Via Monte Bianco 34, Turin, Italy",
-      phone: "(480) 631-2097"
-    }
   ];
   
-  export default employees;
+  export default prisons;
